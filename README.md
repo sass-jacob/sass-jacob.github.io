@@ -12,3 +12,6 @@ Outside of that, I enjoy climbing, reading books about math history, learning ab
 **Work done with Zidan Zhang while in Ganesan Group at UT Austin:**  
 [Ion Correlations and Partial Ionicities in Lamellar Phases of Block Copolymeric Ionic Liquids](https://doi.org/10.1021/acsmacrolett.2c00401)  
 [Conductivity and Transference Numbers in Lithium Salt-Doped Block Copolymeric Ionic Liquid Electrolytes](https://doi.org/10.1021/acs.macromol.3c01791)  
+
+### Contact
+sassj \[at\] mit.edu
