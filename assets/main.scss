@@ -1,7 +1,16 @@
----
----
-@import "minima";
+--- --- @import "minima";
 
 html {
-  overflow-y: scroll;
+    overflow-y: scroll;
+}
+
+/* Enforce consistent navigation spacing */
+.site-nav .page-link {
+    margin-left: 20px !important;
+    /* Fixed gap */
+    display: inline-block !important;
+    font-weight: 400 !important;
+    /* Prevent bolding on active */
+    letter-spacing: normal !important;
+    border: none !important;
 }
