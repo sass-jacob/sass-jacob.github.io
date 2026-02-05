@@ -1,9 +1,14 @@
 title: "Jacob Sass"
 email: sassj [at] mit.edu
 description: >-
-  Personal website of Jacob Sass, PhD student in Chemical Engineering at MIT.
+  Jacob Sass Personal Website
 baseurl: ""
 url: ""
 theme: minima
 plugins:
   - jekyll-feed
+header_pages:
+  - index.md
+  - research.md
+  - blog.md
+  - contact.md
