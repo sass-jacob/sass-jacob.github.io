@@ -11,7 +11,7 @@ repository               : "sass-jacob/sass-jacob.github.io"
 
 # Site Author
 author:
-  avatar           : "/images/profile.jpg" # You should update this later
+  avatar           : "profile.jpg" # You should update this later
   name             : "Jacob Sass"
   pronouns         : 
   bio              : "PhD Student in Chemical Engineering at MIT"
