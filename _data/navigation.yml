@@ -3,7 +3,7 @@ main:
   - title: "Research"
     url: /research/
   - title: "Blog"
-    url: /year-archive/
+    url: /blog/
   - title: "Contact"
     url: /contact/
   # - title: "Portfolio"

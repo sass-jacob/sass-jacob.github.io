@@ -15,6 +15,23 @@
 
 See more info at https://academicpages.github.io/
 
+## Adding blog posts
+
+The Blog page at `/blog/` automatically lists posts from `_posts/`, newest first and grouped by year. The previous `/year-archive/` URL redirects to the Blog page.
+
+To publish a post, create `_posts/YYYY-MM-DD-your-title.md` with the publication date in the filename and this structure:
+
+```markdown
+---
+title: "Your post title"
+excerpt: "A short summary shown on the Blog page."
+---
+
+Write your post here using Markdown.
+```
+
+Commit and push the file to the published branch. GitHub Pages will build the post and add it to the Blog page. Preview unfinished posts in `_drafts/` with `bundle exec jekyll serve --drafts`.
+
 ## Running locally
 
 When you are initially working on your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:

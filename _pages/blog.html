@@ -1,13 +1,17 @@
 ---
 layout: archive
-permalink: /year-archive/
-title: "Blog posts"
+permalink: /blog/
+title: "Blog"
 author_profile: true
 redirect_from:
+  - /year-archive/
   - /wordpress/blog-posts/
 ---
 
 {% include base_path %}
+<p>Notes on research, things I'm learning, and references I find interesting.</p>
+
+{% if site.posts.size > 0 %}
 {% capture written_year %}'None'{% endcapture %}
 {% for post in site.posts %}
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
@@ -17,3 +21,6 @@ redirect_from:
   {% endif %}
   {% include archive-single.html %}
 {% endfor %}
+{% else %}
+<p>Posts are on the way. Check back soon!</p>
+{% endif %}
